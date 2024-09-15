@@ -4,7 +4,6 @@ import { CiMenuKebab } from "react-icons/ci";
 
 import shope from "@/components/assest/pedia/shope.svg";
 import tokopedia from "@/components/assest/pedia/tokopedia.svg";
-import lazada from "@/components/assest/pedia/lazada.svg";
 import web from "@/components/assest/pedia/web.svg";
 
 import { FaTiktok, FaFacebookF, FaInstagram, FaGithub } from "react-icons/fa";
@@ -40,15 +39,23 @@ export const dataLink = [
     id: 3,
     name: "Portfolio",
     icons: <CiMenuKebab />,
-    path: "https://lazada.com.my/",
+    path: "https://rzki-r.vercel.app/",
     img: web,
   },
 
   {
     id: 4,
-    name: "Bisnis",
+    name: "Bisnis | Trisa Studio",
     icons: <CiMenuKebab />,
-    path: "https://shopee.com.my/",
+    path: "https://trisa-studio.vercel.app/",
+    img: web,
+  },
+
+  {
+    id: 5,
+    name: "Bisnis | Comming Soon",
+    icons: <CiMenuKebab />,
+    path: "https://trisa-studio.vercel.app/",
     img: web,
   },
 ];
