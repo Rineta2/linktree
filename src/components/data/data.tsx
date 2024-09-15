@@ -37,7 +37,7 @@ export const dataLink = [
 
   {
     id: 3,
-    name: "Portfolio",
+    name: "Portofolio",
     icons: <CiMenuKebab />,
     path: "https://rzki-r.vercel.app/",
     img: web,
